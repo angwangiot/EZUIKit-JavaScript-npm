@@ -521,7 +521,7 @@
           var recoderJs = _this.opt.filePath + '/npm/js/recoder.js';
           var recorderJs = _this.opt.filePath + '/recorder.js'; // addCss()
 
-          addCss(recoderCSS, function () { });
+          // addCss(recoderCSS, function () { });
           addJs(recoderJs, function () {
             addJs(recorderJs, function () { });
           }); // 对讲模块
